@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="main-title-container">
-                <h1>Weird ahh donuts</h1>
-            </div>
-            <div class="nav-container">
-                <button id="btnHome">Home</button>
-                <button id="btnMenu">Menu</button>
-                <button id="btnAbout">About</button>
-            </div>
-        </nav>
-    </header>
-    <div id="content">
+export const aboutPage = `
         <div class="white-bg-about">
             <h2>About Weird ahh donuts</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed turpis molestie, molestie mauris et, tempus ex. Aliquam erat volutpat. Proin molestie nisi id ullamcorper faucibus. Maecenas pellentesque commodo egestas. Ut dictum tellus vel dui consequat, vitae ultricies mauris viverra. Morbi at justo vehicula, faucibus magna non, placerat nibh. Aliquam ultrices nulla id metus accumsan vestibulum. Duis ut tortor sit amet odio porttitor porttitor.</p>
@@ -30,6 +10,4 @@
             <p>38016</p>
             <p>weirdahh@donuts.com</p>
         </div>
-    </div>
-</body>
-</html>
+`
